@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { Route, Routes } from "react-router-dom";
 import Header from "./components/Header.jsx";
 import Home from "./pages/Home.jsx";
@@ -8,21 +9,23 @@ import Contact from "./pages/Contact.jsx";
 import Footer from "./components/Footer.jsx";
 
 function App() {
+  useEffect(() => {
+    alert("Welcome!");
+  },[]);
   return (
     
-      <div className="bg-[linen] scroll-smooth ">
-        <Header />
+    <div className="bg-[linen] scroll-smooth ">  
 
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/services" element={<Services />} />
-          <Route path="/gallery" element={<Gallery />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
-        <Footer/>
-      </div>
-  
+      <Header />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/gallery" element={<Gallery />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+      <Footer />
+    </div>
   );
 }
 
