@@ -8,7 +8,7 @@ const Home = () => {
         <div className="size-80 h-60 md:hidden sm:h-70 sm:w-100 ">
           <img
             className="border-hidden rounded-lg "
-            src="src\assets\modern-living-room.webp"
+            src="\modern-living-room.webp"
             alt="A refined modern living room with a neutral color palette, comfortable seating, and elegant decor, arranged in a bright and welcoming interior with a calm, cozy atmosphere."
           />
         </div>
@@ -44,7 +44,7 @@ const Home = () => {
         <div className="  hidden md:flex md:pl-8 lg:ml-8 ">
           <img
             className=" size-120 lg:size-150 h-66 lg:h-110 border-hidden rounded-lg"
-            src="src\assets\modern-living-room.webp"
+            src="\modern-living-room.webp"
             alt="A refined modern living room with a neutral color palette, comfortable seating, and elegant decor, arranged in a bright and welcoming interior with a calm, cozy atmosphere."
           />
         </div>

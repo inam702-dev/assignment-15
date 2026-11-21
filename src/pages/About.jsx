@@ -34,7 +34,7 @@ const About = () => {
           <div className="flex items-center justify-center px-4 sm:px-8 md:px-0 mt-4 sm:mt-6 md:mt-0">
             <img
               className="border-0 rounded-xl size-70 sm:size-95 md:size-90  lg:ml-20"
-              src="src\assets\paint-roller.webp"
+              src="\paint-roller.webp"
               alt=""
             />
           </div>

@@ -10,7 +10,7 @@ const Gallery = () => {
         <div className="mt-4 mb-6 overflow-hidden ">
           <img
             className="size-40 sm:size-80 md:size-90 lg:size-110 border-0 rounded-md my-2 sm:my-6 lg:my-8  transition-transform object-cover duration-500 hover:scale-[1.03]  "
-            src="src\assets\hallway.jpg"
+            src="\hallway.jpg"
             alt="A hallway inside a home, providing a passage between rooms."
             fetchPriority="high"
           />
@@ -21,7 +21,7 @@ const Gallery = () => {
         <div className="mt-4 mb-6 overflow-hidden">
           <img
             className="size-40 sm:size-80 md:size-90 lg:size-110 border-0 rounded-md my-2 sm:my-6 lg:my-8 transition-transform object-cover duration-500 hover:scale-[1.03]"
-            src="src\assets\bedroom.webp"
+            src="\bedroom.webp"
             alt="A neatly arranged bedroom with a bed, soft furnishings, and a calm, restful atmosphere."
             fetchPriority="high"
           />
@@ -32,7 +32,7 @@ const Gallery = () => {
         <div className="mt-4 mb-6 overflow-hidden">
           <img
             className="size-40 sm:size-80 md:size-90 lg:size-110 border-0 rounded-md my-2 sm:my-6 lg:my-8 transition-transform object-cover duration-500 hover:scale-[1.03]"
-            src="src\assets\kitchen.jpg"
+            src="\kitchen.jpg"
             alt="A bright, well-kept kitchen with cabinets, counter tops, and cooking appliances, presenting a clean and welcoming atmosphere."
             fetchPriority="high"
           />
@@ -43,7 +43,7 @@ const Gallery = () => {
         <div className="mt-4 mb-6 overflow-hidden">
           <img
             className="size-40 sm:size-80 md:size-90 lg:size-110 border-0 rounded-md my-2 sm:my-6 lg:my-8 transition-transform object-cover duration-500 hover:scale-[1.03]"
-            src="src\assets\dinning.jpg"
+            src="\dinning.jpg"
             alt="A dining area inside the home, arranged for meals and gatherings."
             fetchPriority="high"
           />
@@ -54,7 +54,7 @@ const Gallery = () => {
         <div className="mt-4 mb-6 overflow-hidden">
           <img
             className="size-40 sm:size-80 md:size-90 lg:size-110 border-0 rounded-md my-2 sm:my-6 lg:my-8 transition-transform object-cover duration-500 hover:scale-[1.03]"
-            src="src\assets\exterior.jpg"
+            src="\exterior.jpg"
             alt="The exterior of a home, shown in its surrounding outdoor environment."
             fetchPriority="high"
           />
@@ -65,7 +65,7 @@ const Gallery = () => {
         <div className="mt-4 mb-6 overflow-hidden">
           <img
             className="size-40 sm:size-80 md:size-90 lg:size-110 border-0 rounded-md my-2 sm:my-6 lg:my-8 transition-transform object-cover duration-500 hover:scale-[1.03]"
-            src="src\assets\study-room.webp"
+            src="\study-room.webp"
             alt="A study room in the home, arranged as a space for reading, studying, or working."
             fetchPriority="high"
           />

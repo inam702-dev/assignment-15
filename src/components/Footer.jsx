@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className="flex justify-between sm:justify-evenly px-2 py-2 h-[20vh] lg:h-[26vh] border-t  border-t-gray-400">
       <div>
-        <p className="font-bold text-[#804B56] sm:text-[1.8rem] md:text-[2rem] mb-1">
+        <p className="font-bold text-[#804B56] sm:text-[1.8rem] md:text-[2rem] lg:text-[2.3rem] mb-1">
           Brush Work
         </p>
         <p className="text-[0.6rem] sm:text-[1rem] md:text-[1.1rem] font-semibold">
@@ -13,7 +13,7 @@ const Footer = () => {
         </p>
       </div>
       <div className="flex flex-col">
-        <p className="font-semibold mb-2 sm:text-[1.3rem] md:text-[1.5rem]">
+        <p className="font-semibold mb-2 sm:text-[1.3rem] md:text-[1.5rem] lg:text-[1.7rem]">
           Quick Links
         </p>
         <Link
@@ -43,7 +43,7 @@ const Footer = () => {
         </Link>
       </div>
       <div className="hidden sm:flex sm:flex-col">
-        <p className="font-semibold mb-1 sm:text-[1.3rem] md:text-[1.5rem]">
+        <p className="font-semibold mb-1 sm:text-[1.3rem] md:text-[1.5rem] lg:text-[1.7rem]">
           Our Services
         </p>
         <Link
@@ -68,11 +68,11 @@ const Footer = () => {
         </Link>
       </div>
       <div className="flex flex-col pl-4">
-        <p className="font-semibold mb-2 sm:text-[1.3rem] md:text-[1.5rem]">
+        <p className="font-semibold mb-2 sm:text-[1.3rem] md:text-[1.5rem] lg:text-[1.8rem]">
           Get In Touch
         </p>
         <p className="text-[0.8rem] sm:text-[1.1rem] md:text-[1.3rem]">
-          Edinburgh,EH1,6AA
+          Edinburgh, EH1, 6AA
         </p>
         <p className="text-[0.8rem] sm:text-[1.1rem] md:text-[1.3rem]">
           +441315580167
